@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">LaLa Trabajadores</string>
+    <string name="ingrese_id">INGRESE ID: </string>
+    <string name="ingrese_password">INGRESE CONTRASEÑA: </string>
+    <string name="inicio_sesion">INICIAR SESIÓN </string>
+    <string name="num_intento">NÚMERO DE INTENTOS: 5</string>
+
+    <!--- API para google maps -->
+    <string name="mapKey" translatable="false">AIzaSyCcX-zKu3zA--AT6c5w1qg9AJWPJq8VLrw</string>
+
+    <!--- Strings de menu -->
+    <string name="sPerfil">Perfil</string>
+    <string name="sVentas">Ventas</string>
+    <string name="sPromo">Promoción</string>
+    <string name="sAgenda">Agenda</string>
+    <string name="sAyuda">Ayuda</string>
+    <string name="sInventario">Inventario</string>
+    <string name="sAyudVent">Ayuda de ventas</string>
+    <string name="sAppVende">App para vendedores</string>
+    <string name="sGps">GPS</string>
+    <string name="sQRLector">QR</string>
+
+    <!--- Perfil de usuario-->
+    <string name="sNameUser">Cesar L. Zurita</string>
+    <string name="sNameUserFull">Cesar Leonardo Zurita Merino</string>
+    <string name="sIdUser">ZuritaC340551</string>
+    <string name="sQRID">Código QR del vendedor</string>
+    <string name="sFullName">Nombre Completo</string>
+    <string name="sNumUnidad">Numero de la unidad</string>
+    <string name="sNumCar">N78-A12</string>
+    <string name="sNumTelefono">Numero de telofono</string>
+    <string name="sNumCell">664-145-5803</string>
+    <string name="sDireccionCorreo">Direccion de correo electronico</string>
+    <string name="sCorreo">ZuritaC340551@lala.mx</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--- Ayuda-->
+    <string name="sInfo">Por favor, seleccione alguna de las siguientes opciones</string>
+    <string name="sPhone">Teléfono</string>
+    <string name="sInfo2">Por favor, ingrese el siguiente número de celular para comunicarse con el servicio de ayuda: 5554471409</string>
+    <string name="sIngrese">Ingrese un número de teléfono</string>
+
+    <string name="sGrua">Grúa </string>
+    <string name="sMecanico">Mecánico</string>
+    <string name="sLlanta">Llanta</string>
+    <string name="sAire">AC</string>
+    <string name="sElectrico">Electrico</string>
+    <string name="sOtro">Otro</string>
+    <string name="sBack">Regresar</string>
+
+    <!---Stock-->
+    <string name="TitStock">Productos</string>
+    <string name="BebsText">Bebidas</string>
+    <string name="CremasText">Cremas</string>
+    <string name="LechesText">Leches</string>
+    <string name="MMText">Mantequillas</string>
+    <string name="QuesosText">Quesos</string>
+    <string name="YoghurtsText">Yoghurts</string>
+    <string name="YoghText2">Yoghurts bebibles</string>
+    <string name="PostresText">Postres</string>
+
+    <!---P_Bebidas-->
+    <string name="Bebidas">Bebidas</string>
+    <string name="jugo1">Naturales</string>
+    <string name="jugod1_2">Jugo de Naranja</string>
+    <string name="jugo1_3">Stock: 25</string>
+
+    <!---P_Cremas-->
+    <string name="Cremas">Cremas</string>
+    <string name="Crema1">Crema Fresca</string>
+    <string name="Crema1_2">Deslactosada Light</string>
+    <string name="Crema1_3">Stock: 25</string>
+
+    <string name="Crema2">Crema Original</string>
+    <string name="Crema2_2">Fresca Original</string>
+    <string name="Crema2_3">Stock: 25</string>
+
+    <string name="Crema3">Crema Original</string>
+    <string name="Crema3_2">Fresca Original 4L</string>
+    <string name="Crema3_3">Stock: 25</string>
+
+    <string name="Crema4">Crema Fresca</string>
+    <string name="Crema4_2">Redcida en grasa</string>
+    <string name="Crema4_3">Stock: 25</string>
+
+    <!---P_Leches-->
+    <string name="Leches">Leches</string>
+    <string name="Leche1">LALA Entera</string>
+    <string name="Leche1_2">Leche Entera</string>
+    <string name="Leche1_3">Stock: 25</string>
+
+    <string name="Leche2">LALA +Calcio</string>
+    <string name="Leche2_2">Leche Deslactosada</string>
+    <string name="Leche2_3">Stock: 25</string>
+
+    <string name="Leche3">LALA Organica</string>
+    <string name="Leche3_2">Leche Deslactosada</string>
+    <string name="Leche3_3">Stock: 25</string>
+
+    <string name="Leche4">LALA +Proteina Light</string>
+    <string name="Leche4_2">Leche Light</string>
+    <string name="Leche4_3">Stock: 25</string>
+
+    <string name="Leche5">Ahorrapack LALA</string>
+    <string name="Leche5_2">6 leches LALA D. Light</string>
+    <string name="Leche5_3">Stock: 25</string>
+
+    <string name="Leche6">Yomi Vainilla</string>
+    <string name="Leche6_2">Leche sabor Vainilla</string>
+    <string name="Leche6_3">Stock: 25</string>
+
+    <string name="Leche7">LALA Chocolatada</string>
+    <string name="Leche7_2">Leche sabor chocolate</string>
+    <string name="Leche7_3">Stock: 25</string>
+</resources>

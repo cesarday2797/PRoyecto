@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_P_Leches">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="338dp">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="227dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_marginEnd="116dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/Crema1_3"
+                        android:textAlignment="center"
+                        android:textColor="#151515"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="106dp"
+                        android:text="@string/Leche1_2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="113dp"
+                        android:layout_height="115dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="69dp"
+                        android:layout_toStartOf="@+id/textView13"
+                        app:srcCompat="@drawable/lechered500" />
+
+                    <Button
+                        android:id="@+id/btnBebidas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/cardview_shadow_end_color"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="186dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="75dp"
+                        android:layout_marginBottom="92dp"
+                        android:text="@string/Leche1"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="138dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="45dp"
+                        android:layout_toStartOf="@+id/textView16"
+                        app:srcCompat="@drawable/llcalcio" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="81dp"
+                        android:text="@string/Leche2_2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="227dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_marginEnd="116dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/Crema1_3"
+                        android:textAlignment="center"
+                        android:textColor="#151515"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnCremas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/cardview_shadow_end_color"
+                        android:textSize="1sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="186dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="75dp"
+                        android:layout_marginBottom="92dp"
+                        android:text="@string/Leche2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="124dp"
+                        android:layout_height="114dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginEnd="59dp"
+                        android:layout_toStartOf="@+id/textView19"
+                        app:srcCompat="@drawable/llorgabnik" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="197dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="155dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_marginEnd="58dp"
+                        android:layout_marginBottom="91dp"
+                        android:text="@string/Leche3"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="81dp"
+                        android:text="@string/Leche3_2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="227dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_marginEnd="116dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/Crema1_3"
+                        android:textAlignment="center"
+                        android:textColor="#151515"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnLeches"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:backgroundTint="@color/cardview_shadow_end_color" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="525dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="123dp"
+                        android:layout_height="114dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="95dp"
+                        android:layout_marginBottom="11dp"
+                        android:layout_toStartOf="@+id/textView25"
+                        app:srcCompat="@drawable/protein" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="227dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_marginEnd="116dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/Crema1_3"
+                        android:textAlignment="center"
+                        android:textColor="#151515"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="56dp"
+                        android:layout_marginEnd="108dp"
+                        android:text="@string/Leche4_2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="186dp"
+                        android:layout_height="28dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="167dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="57dp"
+                        android:layout_marginBottom="90dp"
+                        android:text="@string/Leche4"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/btnMantequillas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/cardview_shadow_end_color" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="675dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="186dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="75dp"
+                        android:layout_marginBottom="92dp"
+                        android:text="@string/Leche5"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="58dp"
+                        android:layout_marginEnd="69dp"
+                        android:text="@string/Leche5_2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="227dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_marginEnd="116dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/Crema1_3"
+                        android:textAlignment="center"
+                        android:textColor="#151515"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="126dp"
+                        android:layout_height="96dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginEnd="55dp"
+                        android:layout_toStartOf="@+id/textView28"
+                        app:srcCompat="@drawable/cajall" />
+
+                    <Button
+                        android:id="@+id/btnQuesos"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/cardview_shadow_end_color" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="825dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="227dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_marginEnd="116dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/Crema1_3"
+                        android:textAlignment="center"
+                        android:textColor="#151515"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="81dp"
+                        android:text="@string/Leche6_2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnYoghurts"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/cardview_shadow_end_color" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="186dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="75dp"
+                        android:layout_marginBottom="92dp"
+                        android:text="@string/Leche6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="118dp"
+                        android:layout_height="96dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="67dp"
+                        android:layout_marginBottom="23dp"
+                        android:layout_toStartOf="@+id/textView31"
+                        app:srcCompat="@drawable/yomivainilla" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="975dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="243dp"
+                        android:layout_height="185dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="143dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginBottom="96dp"
+                        android:text="@string/Leche7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="54dp"
+                        android:layout_marginEnd="68dp"
+                        android:text="@string/Leche7_2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="227dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_marginEnd="116dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/Crema1_3"
+                        android:textAlignment="center"
+                        android:textColor="#151515"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="138dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="41dp"
+                        android:layout_toStartOf="@+id/textView34"
+                        app:srcCompat="@drawable/chocolala" />
+
+                    <Button
+                        android:id="@+id/btnYoghurtsB"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/cardview_shadow_end_color" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="126dp"
+            android:layout_marginEnd="126dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/Leches"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

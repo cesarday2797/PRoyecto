@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="20dp"
+            android:background="@color/colorFondo">
+
+            <ImageView
+                android:id="@+id/ivPerfilPhoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/foto_perfil"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:text="@string/sNameUser"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/ivPerfilPhoto"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/tvIdUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sIdUser"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/ivPerfilPhoto"
+                android:includeFontPadding="false"
+                android:layout_below="@id/tvUserName"
+                android:layout_marginLeft="10dp"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-100dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/colorFondo"
+                app:cardElevation="10dp"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/ivQRUser"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/codigo_qr"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/tvQRCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sQRID"
+                        android:includeFontPadding="false"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/bungee"
+                        android:layout_below="@+id/ivQRUser"
+                        android:layout_centerInParent="true"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sFullName"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sNameUserFull"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sNumUnidad"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sNumCar"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sNumTelefono"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sNumCell"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sDireccionCorreo"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sCorreo"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:fontFamily="@font/bungee"
+                android:background="@color/colorFondo2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
